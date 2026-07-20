@@ -1,0 +1,220 @@
+{
+  "category": "toys",
+  "name": "Hračky",
+  "icon": "ic_toys",
+  "emoji": "🎮",
+  "items": [
+    {
+      "id": "lego_001",
+      "name": "LEGO kostka",
+      "imageUrl": "https://via.placeholder.com/200?text=LEGO",
+      "materials": ["plastic", "acrylonitrile"],
+      "components": [
+        {
+          "name": "Plastová krabička",
+          "material": "ABS plast",
+          "function": "Základna",
+          "position": "všude",
+          "explanation": "LEGO kostka je z tvrdého plastu, kterému se nedělá nic"
+        },
+        {
+          "name": "Nýty",
+          "material": "ABS plast",
+          "function": "Spojení",
+          "position": "horní",
+          "explanation": "Nýty se zapískují do dírek jiných kostek"
+        },
+        {
+          "name": "Duté dírky",
+          "material": "ABS plast",
+          "function": "Připojení",
+          "position": "spodní",
+          "explanation": "Do dírek se zastrčí nýty jiných kostek"
+        }
+      ],
+      "schema": "lego_layout.svg",
+      "description": "Stavebnice z milionů kombinací",
+      "funFact": "LEGO bylo vynalezeno v Dánsku a znamená 'hrát si dobře' v dánštině!",
+      "difficulty": 1
+    },
+    {
+      "id": "drone_001",
+      "name": "Dron",
+      "imageUrl": "https://via.placeholder.com/200?text=Drone",
+      "materials": ["plastic", "carbon", "lithium", "aluminum"],
+      "components": [
+        {
+          "name": "4 motory",
+          "material": "měď",
+          "function": "Letání",
+          "position": "rohové",
+          "explanation": "Čtyři motory pracují současně a zvedají drona do vzduchu"
+        },
+        {
+          "name": "Propelery",
+          "material": "plast",
+          "function": "Pohon",
+          "position": "horní",
+          "explanation": "Propelery otáčí vzduch jako větrná kola"
+        },
+        {
+          "name": "Baterie",
+          "material": "lithium",
+          "function": "Napájení",
+          "position": "střed",
+          "explanation": "Drží drona v současné době 10-20 minut ve vzduchu"
+        },
+        {
+          "name": "Fotoaparát",
+          "material": "sklo+sensor",
+          "function": "Video",
+          "position": "spodní",
+          "explanation": "Pořizuje videa a fotky z oblohy"
+        }
+      ],
+      "schema": "drone_layout.svg",
+      "description": "Letící robot řízený bezdrátově",
+      "funFact": "První drony byly vojenské, ale teď si je kupují běžní lidé!",
+      "difficulty": 3
+    },
+    {
+      "id": "robot_001",
+      "name": "Vzdělávací robot",
+      "imageUrl": "https://via.placeholder.com/200?text=Robot",
+      "materials": ["plastic", "metal", "silicon"],
+      "components": [
+        {
+          "name": "Procesor",
+          "material": "silicon",
+          "function": "Myšlení",
+          "position": "hlava",
+          "explanation": "Malý procesor robota řídí jeho chování"
+        },
+        {
+          "name": "Motory",
+          "material": "kov",
+          "function": "Pohyb",
+          "position": "nohy",
+          "explanation": "Motory otáčejí koly a robot se pohybuje"
+        },
+        {
+          "name": "Senzory",
+          "material": "silicon",
+          "function": "Vidění",
+          "position": "oči",
+          "explanation": "Senzory vidí překážky a robot se vyhne"
+        },
+        {
+          "name": "Baterie",
+          "material": "lithium",
+          "function": "Napájení",
+          "position": "tělo",
+          "explanation": "Malá baterie pohání celého robota"
+        }
+      ],
+      "schema": "robot_layout.svg",
+      "description": "Učící se robot pro děti",
+      "funFact": "Vzdělávací roboty učí logické myšlení a programování!",
+      "difficulty": 2
+    },
+    {
+      "id": "toy_car_001",
+      "name": "Modelové autíčko",
+      "imageUrl": "https://via.placeholder.com/200?text=Toycar",
+      "materials": ["die-cast metal", "plastic", "rubber"],
+      "components": [
+        {
+          "name": "Kovový trup",
+          "material": "zink-slitina",
+          "function": "Karoserie",
+          "position": "vnější",
+          "explanation": "Těžký kov chrání hračku před pády"
+        },
+        {
+          "name": "Gumová kola",
+          "material": "guma",
+          "function": "Pohyb",
+          "position": "spodní",
+          "explanation": "Kvalitní guma umožňuje hladký pohyb"
+        },
+        {
+          "name": "Plastové okno",
+          "material": "průhledný plast",
+          "function": "Viditelnost",
+          "position": "přední",
+          "explanation": "Vidíš do kokpitu a vidíš řidiče"
+        }
+      ],
+      "schema": "toy_car_layout.svg",
+      "description": "Sběratelská replika skutečného auta",
+      "funFact": "Některá modelová autíčka stojí tisíce dolarů a jsou sběratelská!",
+      "difficulty": 1
+    },
+    {
+      "id": "puzzle_001",
+      "name": "3D Puzzle",
+      "imageUrl": "https://via.placeholder.com/200?text=Puzzle",
+      "materials": ["cardboard", "plastic"],
+      "components": [
+        {
+          "name": "Papírové díly",
+          "material": "tvrdý papír",
+          "function": "Stavba",
+          "position": "všude",
+          "explanation": "Leštěné papírové díly se dávají dohromady"
+        },
+        {
+          "name": "Plastové spojky",
+          "material": "plast",
+          "function": "Spojení",
+          "position": "okraje",
+          "explanation": "Spojují papírové díly bez lepidla"
+        }
+      ],
+      "schema": "puzzle_layout.svg",
+      "description": "3D stavebnice bez lepidla",
+      "funFact": "3D puzzle cvičí tvou prostorovou představivost!",
+      "difficulty": 2
+    },
+    {
+      "id": "doll_001",
+      "name": "Inteligentní panenka",
+      "imageUrl": "https://via.placeholder.com/200?text=Doll",
+      "materials": ["plastic", "fabric", "silicon"],
+      "components": [
+        {
+          "name": "Hlava",
+          "material": "silicon",
+          "function": "Tvář",
+          "position": "horní",
+          "explanation": "Měkký silicon vypadá jako kůže"
+        },
+        {
+          "name": "Mikrofon",
+          "material": "kov",
+          "function": "Poslouchání",
+          "position": "hlava",
+          "explanation": "Panenka poslouchá tvoje příkazy"
+        },
+        {
+          "name": "Reproduktor",
+          "material": "kov",
+          "function": "Řeč",
+          "position": "hlava",
+          "explanation": "Panenka s tebou mluví"
+        },
+        {
+          "name": "Baterie",
+          "material": "lithium",
+          "function": "Napájení",
+          "position": "tělo",
+          "explanation": "Dává energii všem funkcím"
+        }
+      ],
+      "schema": "doll_layout.svg",
+      "description": "Moderní hračka s AI",
+      "funFact": "Některé inteligentní panenky se mohou učit a pamatovat si tvé oblíbené věci!",
+      "difficulty": 2
+    }
+  ]
+}
